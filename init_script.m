@@ -1,3 +1,6 @@
+% Landing place for new files.
+mkdir sourcedata/merged
+
 diary 'sourcedata/eeg/sub-s01.log';
 %% CHECK FOR OUTPUT PATH AND CRETAE IF NECESSARY
 eeg_init({'sourcedata/eeg/IC_trn_P01_F_1.bdf', ...
