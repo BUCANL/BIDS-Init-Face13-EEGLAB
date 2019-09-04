@@ -9,7 +9,7 @@ This installation assumes familiarity with the bash terminal, paths, and Matlab 
 4. Enter the project folder: `cd Face13`
 5. Create a code folder: `mkdir code`
 6. Enter code folder: `cd code`
-7. Use: `git clone --recursive BIDS-Init-Face13-EEGLAB inside of the code folder`
+7. Use: `git clone --recursive BIDS-Init-Face13-EEGLAB` inside of the code folder
 8. Point Matlab to project folder. In our case, Face13.
 9. In the Matlab console execute: `addpath code/BIDS-Init-Face13-EEGLAB`
 10. In the Matlab console execute: `addpath code/BIDS-Init-Face13-EEGLAB/eeglab`
@@ -17,4 +17,5 @@ This installation assumes familiarity with the bash terminal, paths, and Matlab 
 12. At this point the familiar eeglab window should appear.
 13. To merge and relabel bdf files run: `init_script.m`
 14. To BIDSify run: `bids_face13.m`
-15. Visualize your data!
+15. Select the project directory with the file chooser
+16. Visualize your data!
