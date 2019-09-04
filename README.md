@@ -3,7 +3,7 @@ Root BIDS level initialization and BIDSification tool suite
 
 ## How to Run
 This installation assumes familiarity with the bash terminal, paths, and Matlab console use.
-1. Download Face13 sourcedata, [here](https://drive.google.com/file/d/13X-YFuuMEccSgSq1EgazL4YYENol0vlE/view?usp=sharing)
+1. Download Face13 sourcedata folder, [here](https://drive.google.com/open?id=1xq85woDpAYXhCtzdgjkXpjjjggiWSKtc)
 2. Create a project folder: `mkdir Face13`
 3. Move the sourcedata into the project folder and rename as `sourcedata`. This step may differ based on download location and platform.
 4. Enter the project folder: `cd Face13`
