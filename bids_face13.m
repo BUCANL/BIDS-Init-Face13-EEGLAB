@@ -3,43 +3,43 @@ bidsOpt.FileExt = 'edf';
 bidsOpt.InteralUse = true;
 
 % Data
-data(1).file = {'./sourcedata/merged/sub-s01_task-faceFO_eeg.set'};
+data(1).file = {'./sourcedata/eeg/sub-s01_task-faceFO_eeg.set'};
 data(1).session = 1;
 data(1).run = 1;
 
-data(2).file = {'./sourcedata/merged/sub-s02_task-faceFO_eeg.set'};
+data(2).file = {'./sourcedata/eeg/sub-s02_task-faceFO_eeg.set'};
 data(2).session = 1;
 data(2).run = 1;
 
-data(3).file = {'./sourcedata/merged/sub-s03_task-faceFO_eeg.set'};
+data(3).file = {'./sourcedata/eeg/sub-s03_task-faceFO_eeg.set'};
 data(3).session = 1;
 data(3).run = 1;
 
-data(4).file = {'./sourcedata/merged/sub-s04_task-faceFO_eeg.set'};
+data(4).file = {'./sourcedata/eeg/sub-s04_task-faceFO_eeg.set'};
 data(4).session = 1;
 data(4).run = 1;
 
-data(5).file = {'./sourcedata/merged/sub-s05_task-faceFO_eeg.set'};
+data(5).file = {'./sourcedata/eeg/sub-s05_task-faceFO_eeg.set'};
 data(5).session = 1;
 data(5).run = 1;
 
-data(6).file = {'./sourcedata/merged/sub-s06_task-faceFO_eeg.set'};
+data(6).file = {'./sourcedata/eeg/sub-s06_task-faceFO_eeg.set'};
 data(6).session = 1;
 data(6).run = 1;
 
-data(7).file = {'./sourcedata/merged/sub-s07_task-faceFO_eeg.set'};
+data(7).file = {'./sourcedata/eeg/sub-s07_task-faceFO_eeg.set'};
 data(7).session = 1;
 data(7).run = 1;
 
-data(8).file = {'./sourcedata/merged/sub-s08_task-faceFO_eeg.set'};
+data(8).file = {'./sourcedata/eeg/sub-s08_task-faceFO_eeg.set'};
 data(8).session = 1;
 data(8).run = 1;
 
-data(9).file = {'./sourcedata/merged/sub-s09_task-faceFO_eeg.set'};
+data(9).file = {'./sourcedata/eeg/sub-s09_task-faceFO_eeg.set'};
 data(9).session = 1;
 data(9).run = 1;
 
-data(10).file = {'./sourcedata/merged/sub-s10_task-faceFO_eeg.set'};
+data(10).file = {'./sourcedata/eeg/sub-s10_task-faceFO_eeg.set'};
 data(10).session = 1;
 data(10).run = 1;
 
