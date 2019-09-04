@@ -9,7 +9,7 @@ This installation assumes familiarity with the bash terminal, paths, and Matlab 
 4. Enter the project folder: `cd Face13`
 5. Create a code folder: `mkdir code`
 6. Enter code folder: `cd code`
-7. Use: `git clone --recursive BIDS-Init-Face13-EEGLAB inside of the code folder`
+7. Use: `git clone --recursive BIDS-Init-Face13-EEGLAB` inside of the code folder
 8. Point Matlab to project folder. In our case, Face13.
 9. In the Matlab console execute: `addpath code/BIDS-Init-Face13-EEGLAB`
 10. In the Matlab console execute: `addpath code/BIDS-Init-Face13-EEGLAB/eeglab`
