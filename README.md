@@ -17,4 +17,5 @@ This installation assumes familiarity with the bash terminal, paths, and Matlab 
 12. At this point the familiar eeglab window should appear.
 13. To merge and relabel bdf files run: `init_script.m`
 14. To BIDSify run: `bids_face13.m`
-15. Visualize your data!
+15. Select the project directory with the file chooser
+16. Visualize your data!
