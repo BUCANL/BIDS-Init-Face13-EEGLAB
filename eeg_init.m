@@ -105,12 +105,14 @@ end
 
 % Special casing for parallel port issue
 if strcmp(outsetfile,'sourcedata/eeg/sub-s07_task-faceFO_eeg.set')
-    eind=find([EEG.event.latency]>789010 & [EEG.event.latency]<828644);
+    eind=find([EEG.event.latency]>789010 & [EEG.event.latency]<828844);
+    reAccum = [];
     for i=1:length(eind)
-        if ~strcmp(EEG.event.type,'boundary')
-            EEG.event(eind(i)) = [];
+        if ~strcmp(EEG.event(eind(i)).type,'boundary')
+            reAccum = [reAccum; eind(i)];
         end
     end
+    EEG.event(reAccum) = [];
 end
 
 %save output set file
