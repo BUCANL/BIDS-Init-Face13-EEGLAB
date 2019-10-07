@@ -15,6 +15,11 @@ EEG = pop_mergeset( ALLEEG, 1:length(ALLEEG), 0);
 %load average BUCANL BioSemi head channel coordinates
 EEG=pop_chanedit(EEG, 'load',{'sourcedata/misc/BioSemi_BUCANL_EEGLAB.sfp' 'filetype' 'autodetect'});
 
+% Make sure each channel has the EEG type written in it for future BIDS
+for i=1:length(EEG.chanlocs)
+    EEG.chanlocs(i).type = 'eeg';
+end
+
 %rename events
 for i=1:length(EEG.event);
     if isnumeric(EEG.event(i).type);
