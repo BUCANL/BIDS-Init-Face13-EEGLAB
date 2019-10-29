@@ -1,8 +1,7 @@
 # Face13 Initialization Suite
 This repository provides a root BIDS level initialization and BIDSification tool suite.
 
-# Documentation
-## Installation and How to Run
+# Installation and How to Run
 This installation assumes familiarity with the bash terminal, paths, and Matlab console use.
 1. Download Face13 sourcedata folder, [here](https://drive.google.com/open?id=1xq85woDpAYXhCtzdgjkXpjjjggiWSKtc)
 2. Create a project folder: `mkdir Face13`
@@ -21,7 +20,7 @@ This installation assumes familiarity with the bash terminal, paths, and Matlab 
 15. Select the project directory with the file chooser
 16. Visualize your data!
 
-## Customization
+# Customization
 If you are looking to customize the scripts here to BIDSify you own data, please visit the bids-matlab-tools plugin page [here](https://github.com/BUCANL/bids-matlab-tools).
 
 # Contact Us
