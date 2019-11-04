@@ -7,6 +7,7 @@ bidsOpt.InteralUse = true;
 data(1).file = {'./sourcedata/eeg/sub-s01_task-faceFO_eeg.set'};
 data(1).session = 1;
 data(1).run     = 1;
+data(1).subID = '999';
 
 % general information for dataset_description.json file
 % -----------------------------------------------------
