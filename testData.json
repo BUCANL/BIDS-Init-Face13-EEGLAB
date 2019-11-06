@@ -1,0 +1,15 @@
+{
+    "dataStruct" : [
+        {
+            "file" : ["./sourcedata/eeg/sub-s01_task-faceFO_eeg.set"],
+            "session" : 1,
+            "run" : 1
+        },
+        {
+            "file" : ["./sourcedata/eeg/sub-s02_task-faceFO_eeg.set"],
+            "session" : 1,
+            "run" : 1,
+            "subID" : "999"
+        }
+    ]
+}

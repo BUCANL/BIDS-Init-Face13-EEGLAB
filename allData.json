@@ -1,0 +1,54 @@
+{
+    "dataStruct" : [
+        {
+            "file" : ["./sourcedata/eeg/sub-s01_task-faceFO_eeg.set"],
+            "session" : 1,
+            "run" : 1
+        },
+        {
+            "file" : ["./sourcedata/eeg/sub-s02_task-faceFO_eeg.set"],
+            "session" : 1,
+            "run" : 1
+        },
+        {
+            "file" : ["./sourcedata/eeg/sub-s03_task-faceFO_eeg.set"],
+            "session" : 1,
+            "run" : 1
+        },
+        {
+            "file" : ["./sourcedata/eeg/sub-s04_task-faceFO_eeg.set"],
+            "session" : 1,
+            "run" : 1
+        },
+        {
+            "file" : ["./sourcedata/eeg/sub-s05_task-faceFO_eeg.set"],
+            "session" : 1,
+            "run" : 1
+        },
+        {
+            "file" : ["./sourcedata/eeg/sub-s06_task-faceFO_eeg.set"],
+            "session" : 1,
+            "run" : 1
+        },
+        {
+            "file" : ["./sourcedata/eeg/sub-s07_task-faceFO_eeg.set"],
+            "session" : 1,
+            "run" : 1
+        },
+        {
+            "file" : ["./sourcedata/eeg/sub-s08_task-faceFO_eeg.set"],
+            "session" : 1,
+            "run" : 1
+        },
+        {
+            "file" : ["./sourcedata/eeg/sub-s09_task-faceFO_eeg.set"],
+            "session" : 1,
+            "run" : 1
+        },
+        {
+            "file" : ["./sourcedata/eeg/sub-s10_task-faceFO_eeg.set"],
+            "session" : 1,
+            "run" : 1
+        }
+    ]
+}
