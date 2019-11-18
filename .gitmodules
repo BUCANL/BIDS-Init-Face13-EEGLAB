@@ -1,1 +1,4 @@
 
+[submodule "eeglab"]
+	path = eeglab
+	url = https://github.com/BUCANL/eeglab.git
