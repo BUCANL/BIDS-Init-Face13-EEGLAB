@@ -4,7 +4,7 @@ bidsOpt.InteralUse = true;
 
 % Input file specifications
 % -----------------------------------------------------
-data = loadjson('testData.json');
+data = loadjson('allData.json');
 data.byJson = true;
 
 % general information for dataset_description.json file
